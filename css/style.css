@@ -6,6 +6,7 @@
 }
 
 body {
+    font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: var(--background-color);
@@ -25,14 +26,14 @@ main {
     justify-content: space-between;
 }
 
+#head h3 a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
 .sub-head{
     margin-left: auto;
     order: 2;
-}
-
-#head h3 a {
-    color: var(--dark-color)
-    text-decoration: none;
 }
 
 h1 {
@@ -47,19 +48,16 @@ p {
 
 .post{
     border: 1px solid var(--dark-color);
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     padding: .5em 1em;
 }
-
-
 
 #post{
     border:1px solid var(--dark-color);
     background-color: rgb(19, 174, 161);
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     padding: .5em 1em;
 }
-
 
 .post, #post {
    
@@ -71,7 +69,7 @@ p {
 
     a{
         color: var(--link-color);
-        background-color: var(--light-color);
+        background-color:rgb(237, 149, 34);
         text-decoration: none;
     }
 
@@ -82,11 +80,11 @@ p {
 
 .special-headline {
     font-weight: 900;
-    color: indigo;
+    color: rgb(72, 16, 111);
 }
 
 .highlight {
-background-color: var(--dark-color);
+background-color:cornflowerblue;
 color: var(--light-color);
 h2 {
     color: var(--light-color);
