@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: red;
+    display: flex;
+   /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(215, 172, 255);
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.landingtext {
+    background-color: rgb(174, 104, 255);
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.catImglanding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.catImg {
+    width: 300px;
+    height: 300px;
+}
+
+.about {
+    background-color: antiquewhite;
+}
