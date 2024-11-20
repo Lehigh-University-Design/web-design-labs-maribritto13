@@ -307,4 +307,45 @@ h2 {
   background-color: coral;
 }
 
+/* mosaic gallery grid */
 
+#mosaic-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2vw;
+    margin-bottom: 2vw;
+  
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .big-tile{
+      grid-column: span 4;
+      grid-row: span 2;
+    }
+    
+    .small-tile{
+      grid-column: span 2;
+    }
+    
+    .med-tile{
+      grid-column: span 3;
+    }
+  
+    .tall-tile{
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+  
+  }
+  
+  @media screen and (max-width: 47.99rem){
+    #mosaic-gallery-grid{
+        display: block;
+    }
+    .tile{
+        margin-bottom: 1rem;
+    }
+  }
